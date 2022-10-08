@@ -145,7 +145,7 @@ fn factorial(n: usize) -> BigUint {
 /// Computes primes up to n using Eratosthene's sieve.
 #[pyfunction]
 fn compute_primes(n: usize) -> Vec<usize> {
-    simple_sieve(n)
+    adapted_sieve(n)
 }
 
 #[pyfunction]
